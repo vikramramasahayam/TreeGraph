@@ -1,0 +1,90 @@
+[
+{
+  "name": "SI Customers",
+  "value": "13,674",
+  "parent": "null",
+  "children": [
+    {
+      "name": "Total Successful",
+      "value": "13,506",
+      "parent": "SI Customers",
+      "children": [
+        {
+          "name": "Called/Chat",
+          "value": "265",
+          "parent": "Total Successful",
+          "children": [
+            {
+              "name": "Ticket Issued",
+              "value": "183",
+              "parent": "Called/Chat",
+              "children": [
+                {
+                  "name": "Truck Roll",
+                  "value": "3",
+                  "parent": "Ticket Issued"
+                },
+                {
+                  "name": "No Truck Roll",
+                  "value": "180",
+                  "parent": "Ticket Issued"
+                }
+              ]
+            },
+            {
+              "name": "No Ticket",
+              "value": "82",
+              "parent": "Called/Chat"
+            }
+          ]
+        },
+        {
+          "name": "No Call/Chat",
+          "value": "13,214",
+          "parent": "Total Successful"
+        }
+      ]
+    },
+    {
+      "name": "Total Failed",
+      "parent": "SI Customers",
+      "children": [
+        {
+          "name": "No Call/Chat",
+          "value": "162",
+          "parent": "Total Failed"
+        },
+        {
+          "name": "called/chat",
+          "value": "6",
+          "parent": "Total Failed",
+          "children": [
+            {
+              "name": "No Ticket",
+              "value": "0",
+              "parent": "Called/Chat"
+            },
+            {
+              "name": "Ticket Issued",
+              "value": "6",
+              "parent": "Called/Chat",
+              "children": [
+                {
+                  "name": "No Truck Roll",
+                  "value": "6",
+                  "parent": "Ticket Issued"
+                },
+                {
+                  "name": "Truck Roll",
+                  "value": "0",
+                  "parent": "Ticket Issued"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+]
